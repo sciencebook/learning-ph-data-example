@@ -11,9 +11,6 @@ Start virtual environment and install dependencies
 # Create python virtual environment
 python3 -m venv .venv
 
-# Make the main file executable
-chmod +x main.py
-
 # Start venv
 source .venv/bin/activate  # Linux/Mac
 # .venv\Scripts\activate   # Windows
@@ -28,6 +25,6 @@ pip install -r requirements.txt
 source .venv/bin/activate  # Linux/Mac
 # .venv\Scripts\activate   # Windows
 
-# Run it
-./main.py
+# Then run jupyter
+# Then run your notebook
 ```
